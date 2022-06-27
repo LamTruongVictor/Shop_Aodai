@@ -22,7 +22,7 @@ class Database extends  Connection_data {
         );
     }
     // query database 
-    public function query($sql){
+    public function query($sql){ 
         $result = $this->conn->query($sql);
         return $result;
     }
@@ -40,5 +40,6 @@ class Database extends  Connection_data {
     public function DesConn(){
         echo $this->servename;
     }
+    
 }
 ?>
