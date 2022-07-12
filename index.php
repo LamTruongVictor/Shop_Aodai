@@ -1,3 +1,3 @@
 <?php
-header('Location: controller/site/sucerity_res.php');
+header('Location: controller/site/index.php');
 ?>
