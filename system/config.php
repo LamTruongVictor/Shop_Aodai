@@ -3,5 +3,5 @@
 define('servername','localhost');
 define('username','root');
 define('password','');
-define('dbname','test_ajax');
+define('dbname','my_project');
 ?>

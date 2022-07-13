@@ -1,8 +1,7 @@
 <?php
 include 'config.php';
-include '../app/Ab_database/Ab_database.php';
 // class kết nối với database
-class Database extends  Connection_data {
+class Database {
     public $servename = servername;
     public $username = username;
     public $password = password;
